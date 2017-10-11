@@ -17,7 +17,12 @@ npm i gnibIreland --save
 ```
 import gnibIreland from 'gnib-ireland-client';
 
-const response = gnibIreland.checkSlotsAvailability('New');
+const response = gnibIreland.checkSlotsAvailability('New'); // new registration
+
+// OR
+
+const response = gnibIreland.checkSlotsAvailability('Renewal'); // exiting registration renewal
+
 ```
 
 ### Available Types:
