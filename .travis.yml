@@ -27,6 +27,7 @@ install:
 
 after_success:
   - npm run coverage
+  - npm run build
 
 deploy:
   provider: npm
