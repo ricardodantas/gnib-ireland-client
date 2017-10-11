@@ -16,9 +16,13 @@ branches:
   only:
   - master
 
+before_script:
+  - npm i -g typescript
+  - npm i -g ts-node
+  - npm i -g jasmine-ts
+  - npm i -g
+
 install:
-  - npm uninstall typescript --no-save
-  - npm uninstall tslint --no-save
   - npm install
 
 cache:
