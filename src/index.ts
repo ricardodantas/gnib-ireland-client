@@ -1,3 +1,3 @@
-import * as gnibIreland from './lib/gnibIreland';
+import * as lib from './lib/gnibIreland';
 
-export default gnibIreland;
+export default lib;
