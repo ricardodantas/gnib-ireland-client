@@ -1,1 +1,3 @@
-src/**/*.ts
+src/
+coverage/
+nyc_output/
