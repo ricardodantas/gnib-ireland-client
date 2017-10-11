@@ -8,7 +8,7 @@
     "strict": false
   },
   "include": [
-    "src/**/*",
-    "specs/**/*"
+    "src/**/*"
+    // "specs/**/*"
   ]
 }
