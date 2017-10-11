@@ -28,6 +28,13 @@ install:
 after_success:
   - npm run coverage
 
+deploy:
+  provider: npm
+  email: "ricardodantas@gmail.com"
+  api_key: $NPM_TOKEN
+  on:
+    branch: master
+
 cache:
   directories:
     - node_modules
