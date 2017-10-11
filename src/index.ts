@@ -1,3 +1,9 @@
-import * as lib from './lib/gnibIreland';
+import { checkSlotsAvailability } from './lib/checkSlotsAvailability';
+import { Types, Categories, Subcategories } from './lib/interfaces';
 
-export default lib;
+export default {
+  checkSlotsAvailability,
+  Types,
+  Categories,
+  Subcategories
+};
