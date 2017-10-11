@@ -15,13 +15,13 @@ npm i gnibIreland --save
 ## How to use
 
 ```
-import gnibIreland from 'gnib-ireland-client';
+import gnibIrelandClient from 'gnib-ireland-client';
 
-const response = gnibIreland.checkSlotsAvailability('New'); // new registration
+const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.New); // new registration
 
 // OR
 
-const response = gnibIreland.checkSlotsAvailability('Renewal'); // exiting registration renewal
+const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.Renewal); // exiting registration renewal
 
 ```
 
