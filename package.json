@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "ts-node ./src/index.ts",
     "build": "tsc",
-    "prepublish": "npm run build && npm-auto-version",
+    "prepublish": "npm run build && ./node_modules/npm-auto-version/bin/npm-auto-version",
     "postpublish": "git push origin --tags",
     "test": "nyc jasmine-ts \"./specs/**/*.spec.ts\"",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
@@ -37,6 +37,7 @@
     "@types/node": "~6.0.46",
     "coveralls": "^3.0.0",
     "jasmine-ts": "^0.2.1",
+    "npm-auto-version": "^1.0.0",
     "nyc": "^11.2.1",
     "ts-node": "^3.3.0",
     "typescript": "^2.5.3"
