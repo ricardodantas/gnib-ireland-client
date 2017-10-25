@@ -1,5 +1,7 @@
 export enum Categories {
-  Work = 'Work'
+  Work = 'Work',
+  Other = 'Other',
+  Study = 'Study'
 }
 
 export enum Subcategories {
