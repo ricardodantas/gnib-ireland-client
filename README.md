@@ -7,7 +7,7 @@ This is a client to get GNIB appointments slots.
 ## Install
 
 ```
-npm i gnibIreland --save
+npm i gnib-ireland-client --save
 ```
 
 ***
