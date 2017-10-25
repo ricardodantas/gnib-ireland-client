@@ -17,11 +17,11 @@ npm i gnibIreland --save
 ```
 import gnibIrelandClient from 'gnib-ireland-client';
 
-const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.New); // new registration
+const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.New, gnibIrelandClient.Categories.Work); // new registration
 
 // OR
 
-const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.Renewal); // exiting registration renewal
+const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Types.Renewal, gnibIrelandClient.Categories.Study); // exiting registration renewal
 
 ```
 
@@ -30,6 +30,14 @@ const response = gnibIrelandClient.checkSlotsAvailability(gnibIrelandClient.Type
 * New (for new registrations)
 
 * Renewal (for existing gnib registrations)
+
+### Available Categories:
+
+* Work (default)
+
+* Other
+
+* Study
 
 ***
 
