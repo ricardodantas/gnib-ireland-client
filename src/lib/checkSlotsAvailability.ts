@@ -41,10 +41,12 @@ function logMessage(slots): Array<any> {
 function buildReturn({slots, type, category, subcategory}) {
   return {
     status: 'success',
-    type,
-    category,
-    subcategory,
-    data: slots
+    data: {
+      type,
+      category,
+      subcategory,
+      slots
+    }
   };
 }
 
@@ -109,10 +111,12 @@ export async function checkSlotsAvailability(type: Types = Types.New, category: 
   } catch(error) {
     return {
       status: 'error',
-      type,
-      category,
-      subcategory,
-      error
+      error,
+      data: {
+        type,
+        category,
+        subcategory,
+      }
     };
   }
 }
