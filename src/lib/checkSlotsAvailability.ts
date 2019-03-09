@@ -94,7 +94,7 @@ function getKayAndPiTokensFromPage(page) {
   }
 }
 
-export async function checkSlotsAvailability(type: Types = Types.New, category: Categories = Categories.Study, subcategory: Subcategories = Subcategories.All): Promise<any> {
+export async function checkSlotsAvailability(type: Types = Types.New, category: Categories = Categories.All, subcategory: Subcategories = Subcategories.All): Promise<any> {
   try {
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
     const URL_CHECK_SLOTS = buildUrl(type, category, subcategory);
