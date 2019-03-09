@@ -1,4 +1,5 @@
 export enum Categories {
+  All = 'All',
   Work = 'Work',
   Other = 'Other',
   Study = 'Study'
