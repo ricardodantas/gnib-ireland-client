@@ -5,6 +5,7 @@ This is a client to get GNIB appointments slots.
 ![npm type definitions](https://img.shields.io/npm/types/gnib-ireland-client?style=plastic)
 [![Build Status](https://travis-ci.org/ricardodantas/gnib-ireland-client.svg?branch=master)](https://travis-ci.org/ricardodantas/gnib-ireland-client) 
 [![Coverage Status](https://coveralls.io/repos/github/ricardodantas/gnib-ireland-client/badge.svg?branch=master)](https://coveralls.io/github/ricardodantas/gnib-ireland-client?branch=master) 
+[![npm version](https://badge.fury.io/js/gnib-ireland-client.svg)](https://badge.fury.io/js/gnib-ireland-client)
 [![downloads](https://img.shields.io/npm/dy/gnib-ireland-client?style=plastic)](https://img.shields.io/npm/dy/gnib-ireland-client?style=plastic) 
 
 
