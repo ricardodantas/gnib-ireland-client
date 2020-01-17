@@ -39,7 +39,7 @@
     "npm-auto-version": "^1.0.0",
     "nyc": "^11.2.1",
     "ts-node": "^3.3.0",
-    "typescript": "^2.5.3"
+    "typescript": "^3.7.5"
   },
   "engine": "node >= 6.10.3",
   "nyc": {
