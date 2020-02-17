@@ -32,7 +32,7 @@
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {
-    "@types/jasmine": "^2.6.0",
+    "@types/jasmine": "^3.5.4",
     "@types/node": "~6.0.46",
     "coveralls": "^3.0.0",
     "jasmine-ts": "^0.2.1",
