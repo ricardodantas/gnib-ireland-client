@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^2.6.0",
-    "@types/node": "~6.0.46",
+    "@types/node": "~13.9.1",
     "coveralls": "^3.0.0",
     "jasmine-ts": "^0.2.1",
     "npm-auto-version": "^1.0.0",
