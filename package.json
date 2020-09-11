@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/ricardodantas/gnib-ireland-client#readme",
   "dependencies": {
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/jasmine": "^3.5.10",
